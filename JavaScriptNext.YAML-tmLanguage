@@ -739,6 +739,9 @@ repository:
 
     - name: constant.language.nan.js
       match: (?<!\.)\bNaN\b
+      
+    - name: constant.language.this.js
+      match: (?<!\.)\bthis\b
 
   literal-constructor:
     patterns:
